@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     infosElement.classList.remove('hidden');
     
     var valueElement = document.getElementById('value');
-    valueElement.innerText = ingestaoHidrica.toFixed(0).replace('.',',') + 'ml';
+    valueElement.innerText = ingestaoHidrica.toFixed(2).replace('.',',') + 'ml';
 
   
     
