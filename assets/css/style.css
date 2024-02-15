@@ -205,3 +205,10 @@ footer a {
     text-decoration: none;
     color: black;
 }
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+    display: inline-block;
+    text-align: left;
+
+}
