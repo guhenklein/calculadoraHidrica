@@ -19,13 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Calcular a ingestão hídrica (peso x 0.35)
     var ingestaoHidrica = peso * 35;
+    var valorFormatado = ingestaoHidrica.toFixed(0);
   
     // Exibir os resultados na tela
     var infosElement = document.getElementById('infos');
     infosElement.classList.remove('hidden');
     
     var valueElement = document.getElementById('value');
-    valueElement.innerText = ingestaoHidrica.toFixed(2).replace('.',',') + 'ml';
+    valueElement.innerText = valorFormatado.replace('.',',') + 'ml';
 
   
     
