@@ -198,12 +198,15 @@ footer {
     bottom: 0;
     padding: 10px;
     text-align: center;
+    font-size: 15px;
+
     
 }
 
 footer a {
     text-decoration: none;
     color: black;
+
 }
 
 ::-webkit-input-placeholder {
